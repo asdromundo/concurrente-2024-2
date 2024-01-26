@@ -23,4 +23,8 @@ El algoritmo propuesto para esta solución es el siguiente: dado un número de h
 
 ## Entregables
 
+Es necesario presentar `3` archivos para la entrega: `2` archivos Java, `MatrixUtils.java` y `PrimeNumberCalculator.java`, junto con una captura de pantalla que evidencie la ejecución exitosa del archivo `muls.java`. Adicionalmente, se solicita incluir en un comentario privado los nombres de los integrantes del equipo.
 
+- Se permite la importación de las bibliotecas necesarias para llevar a cabo la práctica.
+- Los participantes pueden crear todos los métodos auxiliares, atributos, etc., que sean necesarios para completar la práctica.
+- La calificación se compone de un 80% en las pruebas unitarias junto con el correcto funcionamiento de la práctica, y un 20% se evaluará la calidad del código.
