@@ -12,7 +12,7 @@ Las prácticas se entregan exclusivamente a través de `Google Classroom`.
 
 ## Modalidad de Trabajo
 
-Las prácticas se realizan en equipos de `2` a `3` personas. Esta modalidad fomenta la colaboración y el intercambio de conocimientos entre compañeros.
+Las prácticas se realizan en equipos de `3` a `4` personas. Esta modalidad fomenta la colaboración y el intercambio de conocimientos entre compañeros.
 
 ## Fecha de Entrega
 
