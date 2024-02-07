@@ -8,11 +8,11 @@ Cada práctica cuenta con un archivo `README.md` que contiene las instrucciones 
 
 ## Plataforma de Entrega
 
-Las prácticas se entregan exclusivamente a través de Google Classroom.
+Las prácticas se entregan exclusivamente a través de `Google Classroom`.
 
 ## Modalidad de Trabajo
 
-Las prácticas se realizan en equipos de 2 personas. Esta modalidad fomenta la colaboración y el intercambio de conocimientos entre compañeros.
+Las prácticas se realizan en equipos de `3` a `4` personas. Esta modalidad fomenta la colaboración y el intercambio de conocimientos entre compañeros.
 
 ## Fecha de Entrega
 
@@ -53,7 +53,7 @@ mau@nostromo:~$ java -jar target/practica01-1.0.jar
 
 Para ejecutar las pruebas unitarias, utiliza el comando:
 ```bash
-mau@nostromo:~ mvn test
+mau@nostromo:~$ mvn test
 ```
 
 ### Ejemplos del libro
