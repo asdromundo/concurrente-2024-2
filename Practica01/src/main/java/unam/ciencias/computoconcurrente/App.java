@@ -3,17 +3,16 @@ package unam.ciencias.computoconcurrente;
 public class App {
 
     public static void main(String[] a) throws InterruptedException {
+        // Numeros primos secuencial
         long iniSec = System.currentTimeMillis();
         PrimeNumberCalculator secuencial = new PrimeNumberCalculator(1);
         secuencial.isPrime(104543);
-
         long finSec = System.currentTimeMillis();
         long tiempo01 = finSec - iniSec;
+        // Numeros primos paralelo/concurrente
         long iniPar = System.currentTimeMillis();
-
         PrimeNumberCalculator paralelo = new PrimeNumberCalculator(8);
         paralelo.isPrime(104543);
-
         long finPar = System.currentTimeMillis();
         long tiempo02 = finPar - iniPar;
 
@@ -29,21 +28,19 @@ public class App {
             {0, 0, -1, 39},
         };
 
+        // Promedio matriz secuencial
         long iniSec2 = System.currentTimeMillis();
         MatrixUtils secuencial2 = new MatrixUtils();
-        //secuencial2.findMinimum(matrix);
+        secuencial2.findAverage(matrix);
         long finSec2 = System.currentTimeMillis();
-
         long tiempo011 = finSec2 - iniSec2;
 
-
-        
+        // Promedio matriz paralelo/concurrente        
         long iniPar2 = System.currentTimeMillis();
         MatrixUtils paralelo2 = new MatrixUtils(4);
-        //paralelo2.findMinimum(matrix);
+        paralelo2.findAverage(matrix);
         long finPar2 = System.currentTimeMillis();
-
-        long tiempo022 = finPar2 -iniPar2;
+        long tiempo022 = finPar2 - iniPar2;
 
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         System.out.println("Comparacion ejercicio 02");
