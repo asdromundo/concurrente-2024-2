@@ -4,7 +4,7 @@ La práctica 3 se centra en resolver un problema de concurrencia de recursos, ev
 
 ## Ejercicio 1: El problema de los Filósofos
 
-El problema de los filósofos fue planteado por E. W. Dijkstra, un pionero en concurrencia, para ejemplificar los conceptos de abrazos mortales (deadlocks) y inanición (hambruna).
+El problema de los filósofos fue planteado por E. W. Dijkstra, un pionero en concurrencia, para ejemplificar los conceptos de abrazos mortales (deadlocks) e inanición (hambruna).
 
 Se imagina una mesa redonda con cinco sillas alrededor. En la mesa hay cinco platos de arroz y cinco palillos (tenedores). Cada silla representa a un filósofo que pasa su tiempo pensando y comiendo. Cada filósofo piensa durante un tiempo, luego le da hambre, así que toma los dos palillos a su lado para poder comer. Una vez que termina de comer, el filósofo suelta los palillos y vuelve a pensar.
 
