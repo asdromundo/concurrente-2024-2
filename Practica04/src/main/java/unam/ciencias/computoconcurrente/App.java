@@ -28,7 +28,7 @@ public class App {
 }
 
 /*
-mau@nostromo:~/Practica02$ java -jar target/practica02-1.0.jar 
+mau@nostromo:~/Practica04$ java -jar target/practica04-1.0.jar 
 
 Productor 0 produjo: 0
 Productor 1 produjo: 0
