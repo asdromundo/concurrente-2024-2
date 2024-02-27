@@ -1,5 +1,14 @@
 # Computación Concurrente 2024-2
 
+Repositorio del equipo:
+- Yun Hernández González
+- Eder Samuel Berber Gutiérrez
+- Esaú Martínez Pardo
+- Antonio Sebastián Dromundo Escobedo
+
+![Portada](https://media.viajando.travel/p/7ea1656f17faec4796516c1f11c1905c/adjuntos/236/imagenes/000/676/0000676576/1200x0/smart/guayaquiljpg.jpg)
+---
+
 Link del curso: [Computación Concurrente](http://lya.fciencias.unam.mx/jloa/curso.compconcur.html)
 
 ## Instrucciones y Entregables
