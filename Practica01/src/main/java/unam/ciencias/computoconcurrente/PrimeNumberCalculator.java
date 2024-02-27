@@ -23,7 +23,11 @@ public class PrimeNumberCalculator implements Runnable {
 
     @Override
     public void run() {
-        //Aqui va tu codigo
+        try {
+            resultado = isPrime(numero);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return;
     }
 
@@ -34,7 +38,22 @@ public class PrimeNumberCalculator implements Runnable {
     * @return Si es primo o no es primo.
     */
     public boolean isPrime(int n) throws InterruptedException {
-        //Aqui va tu codigo
+        if (n <= 1) {
+            return false;
+        }
+        if (n <= 3) {
+            return true;
+        }
+        if (n % 2 == 0 || n % 3 == 0) {
+            return false;
+        }
+        int i = 5;
+        while (i * i <= n) {
+            if (n % i == 0 || n % (i + 2) == 0) {
+                return false;
+            }
+            i += 6;
+        }
         return true;
     }
 

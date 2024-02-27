@@ -20,12 +20,27 @@ public class MatrixUtils implements Runnable {
 
     @Override
     public void run() {
-        //Aqui va tu codigo
+        try {
+            promedioSegmento = findAverage(matrizDividida);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     public double findAverage(int[][] matrix) throws InterruptedException {
-        //Aqui va tu codigo
-        return 1.0;
+        if (matrix == null || matrix.length == 0) {
+            throw new IllegalArgumentException("La matriz no puede ser nula o vacía.");
+        }
+
+        long sum = 0;
+        int count = 0;
+        for (int[] row : matrix) {
+            for (int num : row) {
+                sum += num;
+                count++;
+            }
+        }
+
+        return (double) sum / count;
     }
-    
 }
