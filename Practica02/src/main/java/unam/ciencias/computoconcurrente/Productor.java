@@ -11,6 +11,18 @@ class Productor implements Runnable {
     }
 
     public void run() {
-        //Aqui va tu codigo
+        try {
+            while (true) {
+                // Genera un elemento
+                int item = (int) (Math.random() * 100); // Genera un elemento aleatorio
+                // Intenta producir el elemento en el buffer
+                buffer.producir(item, id);
+                // Simula un tiempo de producción
+                Thread.sleep(1500); // Puede ser distinto chicos, aquí son 1500 ms
+            }
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
     }
+    
 }
