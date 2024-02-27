@@ -3,21 +3,22 @@ package unam.ciencias.computoconcurrente;
 public class App {
 
     public static void main(String[] a) throws InterruptedException {
+        int numero = 2147483647;
         // Numeros primos secuencial
         long iniSec = System.currentTimeMillis();
         PrimeNumberCalculator secuencial = new PrimeNumberCalculator(1);
-        secuencial.isPrime(104543);
+        System.out.println(secuencial.isPrime(numero));
         long finSec = System.currentTimeMillis();
         long tiempo01 = finSec - iniSec;
         // Numeros primos paralelo/concurrente
         long iniPar = System.currentTimeMillis();
         PrimeNumberCalculator paralelo = new PrimeNumberCalculator(8);
-        paralelo.isPrime(104543);
+        System.out.println(paralelo.isPrime(numero));
         long finPar = System.currentTimeMillis();
         long tiempo02 = finPar - iniPar;
 
         System.out.println("Comparacion ejercicio 01");
-        System.out.println("El primo a comparar es el numero: 104543");
+        System.out.println("El primo a comparar es el numero: " + numero);
         System.out.println("El tiempo en el algoritmo secuencial tarda: " + tiempo01);
         System.out.println("El tiempo en el algoritmo paralelo tarda: " + tiempo02);
 
